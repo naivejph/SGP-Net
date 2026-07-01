@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from models.encoder import Res101Encoder
 from models.Decoders import Decoder
-from boundary_loss import BoundaryLoss
+from sgp_loss import Loss
 
 from models.moudles import SpectralPrototypeBank, GeodesicMatcher
 
